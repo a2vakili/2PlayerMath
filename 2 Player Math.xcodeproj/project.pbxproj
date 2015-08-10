@@ -14,6 +14,8 @@
 		B64C929E1B78F88000AD96BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64C929D1B78F88000AD96BC /* Images.xcassets */; };
 		B64C92A11B78F88000AD96BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64C929F1B78F88000AD96BC /* LaunchScreen.xib */; };
 		B64C92AD1B78F88000AD96BC /* __Player_MathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92AC1B78F88000AD96BC /* __Player_MathTests.m */; };
+		B64C92B81B790E3200AD96BC /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92B71B790E3200AD96BC /* Player.m */; };
+		B64C92BB1B790F1900AD96BC /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92BA1B790F1900AD96BC /* GameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B64C92A61B78F88000AD96BC /* 2 Player MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 Player MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64C92AB1B78F88000AD96BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B64C92AC1B78F88000AD96BC /* __Player_MathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Player_MathTests.m; sourceTree = "<group>"; };
+		B64C92B61B790E3200AD96BC /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B64C92B71B790E3200AD96BC /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B64C92B91B790F1900AD96BC /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		B64C92BA1B790F1900AD96BC /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				B64C92951B78F88000AD96BC /* AppDelegate.m */,
 				B64C92971B78F88000AD96BC /* ViewController.h */,
 				B64C92981B78F88000AD96BC /* ViewController.m */,
+				B64C92B61B790E3200AD96BC /* Player.h */,
+				B64C92B71B790E3200AD96BC /* Player.m */,
+				B64C92B91B790F1900AD96BC /* GameModel.h */,
+				B64C92BA1B790F1900AD96BC /* GameModel.m */,
 				B64C929A1B78F88000AD96BC /* Main.storyboard */,
 				B64C929D1B78F88000AD96BC /* Images.xcassets */,
 				B64C929F1B78F88000AD96BC /* LaunchScreen.xib */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64C92B81B790E3200AD96BC /* Player.m in Sources */,
 				B64C92991B78F88000AD96BC /* ViewController.m in Sources */,
+				B64C92BB1B790F1900AD96BC /* GameModel.m in Sources */,
 				B64C92961B78F88000AD96BC /* AppDelegate.m in Sources */,
 				B64C92931B78F88000AD96BC /* main.m in Sources */,
 			);
