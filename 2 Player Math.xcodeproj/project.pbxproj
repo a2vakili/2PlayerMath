@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B64C92931B78F88000AD96BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92921B78F88000AD96BC /* main.m */; };
+		B64C92961B78F88000AD96BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92951B78F88000AD96BC /* AppDelegate.m */; };
+		B64C92991B78F88000AD96BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92981B78F88000AD96BC /* ViewController.m */; };
+		B64C929C1B78F88000AD96BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64C929A1B78F88000AD96BC /* Main.storyboard */; };
+		B64C929E1B78F88000AD96BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64C929D1B78F88000AD96BC /* Images.xcassets */; };
+		B64C92A11B78F88000AD96BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64C929F1B78F88000AD96BC /* LaunchScreen.xib */; };
+		B64C92AD1B78F88000AD96BC /* __Player_MathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64C92AC1B78F88000AD96BC /* __Player_MathTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B64C92A71B78F88000AD96BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64C92851B78F88000AD96BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64C928C1B78F88000AD96BC;
+			remoteInfo = "2 Player Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B64C928D1B78F88000AD96BC /* 2 Player Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2 Player Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64C92911B78F88000AD96BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64C92921B78F88000AD96BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B64C92941B78F88000AD96BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B64C92951B78F88000AD96BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B64C92971B78F88000AD96BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B64C92981B78F88000AD96BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B64C929B1B78F88000AD96BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B64C929D1B78F88000AD96BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B64C92A01B78F88000AD96BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B64C92A61B78F88000AD96BC /* 2 Player MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 Player MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64C92AB1B78F88000AD96BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64C92AC1B78F88000AD96BC /* __Player_MathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Player_MathTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64C928A1B78F88000AD96BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64C92A31B78F88000AD96BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B64C92841B78F88000AD96BC = {
+			isa = PBXGroup;
+			children = (
+				B64C928F1B78F88000AD96BC /* 2 Player Math */,
+				B64C92A91B78F88000AD96BC /* 2 Player MathTests */,
+				B64C928E1B78F88000AD96BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B64C928E1B78F88000AD96BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64C928D1B78F88000AD96BC /* 2 Player Math.app */,
+				B64C92A61B78F88000AD96BC /* 2 Player MathTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64C928F1B78F88000AD96BC /* 2 Player Math */ = {
+			isa = PBXGroup;
+			children = (
+				B64C92941B78F88000AD96BC /* AppDelegate.h */,
+				B64C92951B78F88000AD96BC /* AppDelegate.m */,
+				B64C92971B78F88000AD96BC /* ViewController.h */,
+				B64C92981B78F88000AD96BC /* ViewController.m */,
+				B64C929A1B78F88000AD96BC /* Main.storyboard */,
+				B64C929D1B78F88000AD96BC /* Images.xcassets */,
+				B64C929F1B78F88000AD96BC /* LaunchScreen.xib */,
+				B64C92901B78F88000AD96BC /* Supporting Files */,
+			);
+			path = "2 Player Math";
+			sourceTree = "<group>";
+		};
+		B64C92901B78F88000AD96BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64C92911B78F88000AD96BC /* Info.plist */,
+				B64C92921B78F88000AD96BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B64C92A91B78F88000AD96BC /* 2 Player MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				B64C92AC1B78F88000AD96BC /* __Player_MathTests.m */,
+				B64C92AA1B78F88000AD96BC /* Supporting Files */,
+			);
+			path = "2 Player MathTests";
+			sourceTree = "<group>";
+		};
+		B64C92AA1B78F88000AD96BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B64C92AB1B78F88000AD96BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64C928C1B78F88000AD96BC /* 2 Player Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64C92B01B78F88000AD96BC /* Build configuration list for PBXNativeTarget "2 Player Math" */;
+			buildPhases = (
+				B64C92891B78F88000AD96BC /* Sources */,
+				B64C928A1B78F88000AD96BC /* Frameworks */,
+				B64C928B1B78F88000AD96BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2 Player Math";
+			productName = "2 Player Math";
+			productReference = B64C928D1B78F88000AD96BC /* 2 Player Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B64C92A51B78F88000AD96BC /* 2 Player MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64C92B31B78F88000AD96BC /* Build configuration list for PBXNativeTarget "2 Player MathTests" */;
+			buildPhases = (
+				B64C92A21B78F88000AD96BC /* Sources */,
+				B64C92A31B78F88000AD96BC /* Frameworks */,
+				B64C92A41B78F88000AD96BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64C92A81B78F88000AD96BC /* PBXTargetDependency */,
+			);
+			name = "2 Player MathTests";
+			productName = "2 Player MathTests";
+			productReference = B64C92A61B78F88000AD96BC /* 2 Player MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64C92851B78F88000AD96BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Arsalan Vakili";
+				TargetAttributes = {
+					B64C928C1B78F88000AD96BC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B64C92A51B78F88000AD96BC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B64C928C1B78F88000AD96BC;
+					};
+				};
+			};
+			buildConfigurationList = B64C92881B78F88000AD96BC /* Build configuration list for PBXProject "2 Player Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B64C92841B78F88000AD96BC;
+			productRefGroup = B64C928E1B78F88000AD96BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64C928C1B78F88000AD96BC /* 2 Player Math */,
+				B64C92A51B78F88000AD96BC /* 2 Player MathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64C928B1B78F88000AD96BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64C929C1B78F88000AD96BC /* Main.storyboard in Resources */,
+				B64C92A11B78F88000AD96BC /* LaunchScreen.xib in Resources */,
+				B64C929E1B78F88000AD96BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64C92A41B78F88000AD96BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64C92891B78F88000AD96BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64C92991B78F88000AD96BC /* ViewController.m in Sources */,
+				B64C92961B78F88000AD96BC /* AppDelegate.m in Sources */,
+				B64C92931B78F88000AD96BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64C92A21B78F88000AD96BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64C92AD1B78F88000AD96BC /* __Player_MathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64C92A81B78F88000AD96BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64C928C1B78F88000AD96BC /* 2 Player Math */;
+			targetProxy = B64C92A71B78F88000AD96BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B64C929A1B78F88000AD96BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64C929B1B78F88000AD96BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B64C929F1B78F88000AD96BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64C92A01B78F88000AD96BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64C92AE1B78F88000AD96BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B64C92AF1B78F88000AD96BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B64C92B11B78F88000AD96BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "2 Player Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B64C92B21B78F88000AD96BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "2 Player Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B64C92B41B78F88000AD96BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2 Player MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2 Player Math.app/2 Player Math";
+			};
+			name = Debug;
+		};
+		B64C92B51B78F88000AD96BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2 Player MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2 Player Math.app/2 Player Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64C92881B78F88000AD96BC /* Build configuration list for PBXProject "2 Player Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64C92AE1B78F88000AD96BC /* Debug */,
+				B64C92AF1B78F88000AD96BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64C92B01B78F88000AD96BC /* Build configuration list for PBXNativeTarget "2 Player Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64C92B11B78F88000AD96BC /* Debug */,
+				B64C92B21B78F88000AD96BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B64C92B31B78F88000AD96BC /* Build configuration list for PBXNativeTarget "2 Player MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64C92B41B78F88000AD96BC /* Debug */,
+				B64C92B51B78F88000AD96BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B64C92851B78F88000AD96BC /* Project object */;
+}
