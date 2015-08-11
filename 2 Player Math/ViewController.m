@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GameModel.h"
+#import "Player.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *player1ScoreLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *player2ScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *gameOverLabel;
 
 @end
 
@@ -85,51 +87,71 @@
 
 - (IBAction)answerButton:(id)sender {
     
+    
     int score = [self.gameModel scoreUpdate];
     
-     //[self addNumbers:self.gameModel.playerChosenNumber];
+    //[self addNumbers:self.gameModel.playerChosenNumber];
     //getting the update score of current player
-   
+    
     if ([self.gameModel.player1 isEqual:self.gameModel.currentPlayer ]) {
         
         NSString *scorePlayer1 = [NSString stringWithFormat:@"Player 1 score: %i",score];
         self.player1ScoreLabel.text = scorePlayer1;
     }
-   
+    
     if ([self.gameModel.player2 isEqual:self.gameModel.currentPlayer]) { // if player 2 we set the label of current score
         NSString *scoreplayer2 = [NSString stringWithFormat:@"Player 2 score: %i",score];
         self.player2ScoreLabel.text = scoreplayer2;
     }
     
     [self.gameModel randomize];
-   
+    
     [self.gameModel swapPlayers];
+    [self.gameModel randomsignGenerator];
     
     [self updateView];
+    
+    
+    if (self.gameModel.currentPlayer.numberOfLives == 0) {
+        self.gameOverLabel.text = @"Player has lost";
+    }
+    
+    
 }
 
 
 -(void)addNumbers:(int)num{
     
-    // generating random numbers in
     
-    if (self.gameModel.playerChosenNumber < 10) {
-        self.gameModel.playerChosenNumber = self.gameModel.playerChosenNumber * 10;
-        self.gameModel.playerChosenNumber = self.gameModel.playerChosenNumber + num;
-    } else {
+    
+    // making a player's chosen number from 1 to 2 digit numbers.
+    
+    if (self.gameModel.playerChosenNumber < 10)
+    {
+        self.gameModel.playerChosenNumber *= 10;
+        self.gameModel.playerChosenNumber += num;
+        
+    }   // making a player's chosen number from 2 to 3 digits.
+    else if (self.gameModel.playerChosenNumber < 100 && self.gameModel.playerChosenNumber >= 10) {
+        self.gameModel.playerChosenNumber *= 10;
+        self.gameModel.playerChosenNumber+= num;
+    }
+    else {
         self.gameModel.playerChosenNumber = num;
     }
     
-
+    
     [self updateView];
- 
+    
 }
 
 
 -(void)updateView{
-    // making a method to set up the playerQuestion label.
     
-    NSString *questionLabelString = [NSString stringWithFormat:@"player(%i): %i + %i = %i",self.gameModel.playerTurn,self.gameModel.randomNumber1,self.gameModel.randomNumber2,self.gameModel.playerChosenNumber];
+    // setting up the game models player's turn random numbers and setting up the gamemodel the player's chosen number.
+    
+    
+    NSString *questionLabelString = [NSString stringWithFormat:@"player(%i): %i %@ %i = %i",self.gameModel.playerTurn,self.gameModel.randomNumber1,self.gameModel.randomSign,self.gameModel.randomNumber2, self.gameModel.playerChosenNumber];
     self.playerQuestionLabel.text = questionLabelString;
 }
 

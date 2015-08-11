@@ -21,6 +21,8 @@
 
 @property(nonatomic) int playerChosenNumber;
 
+@property(nonatomic,strong) NSString *randomSign;
+
 
 
 -(int)generateRandomNumber;
@@ -32,5 +34,6 @@
 -(void)randomize;
 
 - (void)swapPlayers;
+-(void)randomsignGenerator;
 
 @end

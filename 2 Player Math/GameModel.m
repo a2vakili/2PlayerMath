@@ -25,6 +25,7 @@
         _player2 = [[Player alloc]init];
         _currentPlayer = _player1;
         _playerTurn = 1;
+        _randomSign = @"+";
         [self randomize];
     }
     return self;
@@ -48,7 +49,15 @@
 
 
 -(int)calculateNumber{
-    
+    if ([self.randomSign isEqualToString:@"/"]) {
+        return self.randomNumber1 / self.randomNumber2;
+    }
+    else if ([self.randomSign isEqualToString:@"-"]){
+        return self.randomNumber1 - self.randomNumber2;
+    }
+    else if ([self.randomSign isEqualToString:@"*"]){
+        return self.randomNumber1 * self.randomNumber2;
+    }
     return self.randomNumber1 + self.randomNumber2;
 }
 
@@ -77,4 +86,9 @@
     }
 }
 
+-(void)randomsignGenerator{
+    NSArray *randomValues = @[@"-", @"+", @"*",@"/"];
+     int random = (int)arc4random_uniform(3);
+    self.randomSign = randomValues[random];
+}
 @end
